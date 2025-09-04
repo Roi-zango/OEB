@@ -1,0 +1,9 @@
+.carousel-inner {
+    display: flex;
+    flex-direction: column; /* Change the direction to vertical */
+}
+
+.carousel-item {
+    flex: 1; /* Allow items to take equal space */
+    transition: transform 0.5s ease; /* Smooth transition */
+}
